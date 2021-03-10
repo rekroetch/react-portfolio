@@ -1,0 +1,19 @@
+.footer {
+    text-align: right;
+    line-height: 0.75px;
+}
+
+.navBottom {
+    border-top: 1px solid #333;
+    background-color: #999;
+}
+
+.social {
+    font-size: 40px;
+    margin: 0 5px;
+    color: #333;
+}
+
+.social:hover {
+    color: black;
+}
