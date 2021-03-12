@@ -13,7 +13,7 @@ function SearchForm(props) {
             <div className="input-group">
                 <textarea value={props.message} onChange={props.handleInputChange} name="message" className="form-control" placeholder="Message" aria-label="With textarea"></textarea>
             </div>
-          <button type="submit" onClick={props.handleFormSubmit} className="btn btn-dark" style={{marginTop: "10px"}}>
+          <button type="submit" onClick={props.handleFormSubmit} className="btn btn-dark" style={{margin: "10px 0 0 0"}}>
             Submit
           </button>
         </div>
