@@ -16,7 +16,6 @@ class Contact extends Component {
             email: event.target.value,
             message: event.target.value
         });
-        console.log(this.state)
     };
     
     handleFormSubmit = () => {
