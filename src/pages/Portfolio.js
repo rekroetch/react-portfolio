@@ -8,8 +8,7 @@ import weatherDash from '../assets/weatherDashboardScreenshot.png'
 import burger from '../assets/Eat-Da-Burger.png'
 import employeeDirect from '../assets/employeeDirectory.png'
 import fitnessTracker from '../assets/fitnessTracker.png'
-
-// import Col from '../components/Col'
+import "./pages.css"
 
 function Portfolio() {
     return (
