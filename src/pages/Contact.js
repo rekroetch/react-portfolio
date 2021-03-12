@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import Container from '../components/Container'
 import Jumbotron from '../components/Jumbotron'
-// import Input from '../components/Input'
-// import FormBtn from '../components/FormBtn'
 import Form from '../components/Form'
 
 class Contact extends Component {
