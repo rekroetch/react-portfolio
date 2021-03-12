@@ -1,0 +1,14 @@
+.contactInfo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cardImg {
+    width: 200px; 
+    margin: 0 20px 20px 0; 
+    border: 1px solid #999;
+}
+
+.btn {
+    margin: 0 11px;
+}
