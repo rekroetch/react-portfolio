@@ -6,6 +6,8 @@ import plates from '../assets/platesResults.png'
 import gameKeeper from '../assets/gameKeeperWelcome.png'
 import weatherDash from '../assets/weatherDashboardScreenshot.png'
 import burger from '../assets/Eat-Da-Burger.png'
+import employeeDirect from '../assets/employeeDirectory.png'
+import fitnessTracker from '../assets/fitnessTracker.png'
 
 // import Col from '../components/Col'
 
@@ -52,7 +54,24 @@ function Portfolio() {
                             <a href="https://github.com/rekroetch/burger" target="_blank" rel="noreferrer" className="btn btn-secondary">GitHub Repo</a>
                         </div>
                     </Card>
-                    <Card></Card>
+                    <Card>
+                        <img src={employeeDirect} className="card-img-top" alt="Employee Directory app screenshot"></img>
+                        <div className="card-body">
+                            <h2 className="card-title">Employee Directory</h2>
+                            <p className="card-text">An app that allows an employee to view a list of all employees in a directory, with the ability to filter the list by role or sort the list alphabetically/numerically by any of the categories.  Made with JavaScript, CSS, NodeJS, and React</p>
+                            <a href="https://rekroetch.github.io/employee_directory/" target="_blank" rel="noreferrer" className="btn btn-dark">Deployed Site</a>
+                            <a href="https://github.com/rekroetch/employee_directory" target="_blank" rel="noreferrer" className="btn btn-secondary">GitHub Repo</a>
+                        </div>
+                    </Card>
+                    <Card>
+                        <img src={fitnessTracker} className="card-img-top" alt="Fitness Tracker app screenshot"></img>
+                        <div className="card-body">
+                            <h2 className="card-title">Fitness Tracker</h2>
+                            <p className="card-text">An app that allows users to add exercises to new or existing workout plans each day. Daily totals are tracked on the stats page, showing pounds, sets, reps, duration, and distance. Each exercise is stored in a collection on MongoDB Atlas. App made with MongoDB, Mongoose, Express, and Node.</p>
+                            <a href="https://track-myfit.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-dark">Deployed Site</a>
+                            <a href="https://github.com/rekroetch/workout_tracker" target="_blank" rel="noreferrer" className="btn btn-secondary">GitHub Repo</a>
+                        </div>
+                    </Card>
                 </Row>
             </Jumbotron>
         </Container>
