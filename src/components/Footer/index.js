@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import Resume from '../../assets/Rachel Kroetch - Resume.pdf'
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <div className="footer col">
             <a href="https://www.linkedin.com/in/rachelkroetch/" target="_blank" rel="noreferrer" className="social"><i className="fab fa-linkedin"></i></a>
             <a href="https://github.com/rekroetch" target="_blank" rel="noreferrer" className="social"><i className="fab fa-github-square"></i></a>
-            <a href="assets/Rachel Kroetch - Resume.pdf" target="_blank" rel="noreferrer" className="social"><i className="far fa-file-alt"></i></a>
+            <a href={Resume} target="_blank" rel="noreferrer" className="resume">Resume</a>
         </div>
     </nav>
   );

@@ -9,11 +9,22 @@
 }
 
 .social {
-    font-size: 40px;
+    font-size: 35px;
     margin: 0 5px;
     color: #333;
 }
 
 .social:hover {
+    color: black;
+}
+
+.resume {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 5px;
+    color: #333;
+}
+
+.resume:hover {
     color: black;
 }
