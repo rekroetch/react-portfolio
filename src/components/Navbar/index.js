@@ -6,7 +6,7 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navTop">
-      <Link className="navbar-brand" to="/">
+      <Link className="navbar-brand" to="/" style={{fontSize: "25px"}}>
         Rachel Kroetch
       </Link>
       <div>
@@ -15,6 +15,7 @@ function Navbar() {
             <Link
               to="/"
               className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
+              style={{color: "whitesmoke"}}
             >
               About
             </Link>
@@ -23,6 +24,7 @@ function Navbar() {
             <Link
               to="/portfolio"
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
+              style={{color: "whitesmoke"}}
             >
               Portfolio
             </Link>
@@ -31,6 +33,7 @@ function Navbar() {
             <Link
               to="/contact"
               className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+              style={{color: "whitesmoke"}}
             >
               Contact
             </Link>
