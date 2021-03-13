@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.8097d5ca.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.a7782379.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.a7782379.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.5c871b78.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.5c871b78.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/react-portfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.94a0e7cc.chunk.js": "/react-portfolio/static/js/2.94a0e7cc.chunk.js",
+    "static/js/2.94a0e7cc.chunk.js.map": "/react-portfolio/static/js/2.94a0e7cc.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/react-portfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.8097d5ca.chunk.css.map": "/react-portfolio/static/css/main.8097d5ca.chunk.css.map",
+    "static/js/2.94a0e7cc.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.94a0e7cc.chunk.js.LICENSE.txt",
+    "static/media/Eat-Da-Burger.82c981d6.png": "/react-portfolio/static/media/Eat-Da-Burger.82c981d6.png",
+    "static/media/Rachel Kroetch - Resume.b1c77151.pdf": "/react-portfolio/static/media/Rachel Kroetch - Resume.b1c77151.pdf",
+    "static/media/index.css": "/react-portfolio/static/media/augustine-wong-li0iC0rjvvg-unsplash.d0711425.jpg",
+    "static/media/employeeDirectory.877cb2f7.png": "/react-portfolio/static/media/employeeDirectory.877cb2f7.png",
+    "static/media/fitnessTracker.52aadf5e.png": "/react-portfolio/static/media/fitnessTracker.52aadf5e.png",
+    "static/media/gameKeeperWelcome.3623d62d.png": "/react-portfolio/static/media/gameKeeperWelcome.3623d62d.png",
+    "static/media/platesResults.3d10678a.png": "/react-portfolio/static/media/platesResults.3d10678a.png",
+    "static/media/profilePic.345819ad.jpeg": "/react-portfolio/static/media/profilePic.345819ad.jpeg",
+    "static/media/weatherDashboardScreenshot.770aed28.png": "/react-portfolio/static/media/weatherDashboardScreenshot.770aed28.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c871b78.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.94a0e7cc.chunk.js",
+    "static/css/main.8097d5ca.chunk.css",
+    "static/js/main.a7782379.chunk.js"
+  ]
+}
