@@ -11,3 +11,6 @@ https://rekroetch.github.io/react-portfolio/
 
 
 ### Screenshots
+![About Page](./screenshots/aboutPage.png)
+![Portfolio Page](./screenshots/portfolioPage.png)
+![Contact Page](./screenshots/contactPage.png)
