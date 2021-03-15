@@ -1,12 +1,13 @@
 # Portfolio
 
-## Description
+### Description
 An app that displays contact information about me and highlights several of my recent projects with images and links to their repos and deployed sites.  
 
-## Tools
+### Tools
 Made using Javascript, CSS, Node, React, and Bootstrap. 
 
-## Link to Deployed Site
+### Link to Deployed Site
+https://rekroetch.github.io/react-portfolio/
 
 
-## Screenshots
+### Screenshots
