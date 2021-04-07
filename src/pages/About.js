@@ -1,5 +1,5 @@
 import './pages.css'
-import profPic from '../assets/profilePic.jpeg'
+import profPic from '../assets/headShot.jpeg'
 import Container from '../components/Container'
 import Jumbotron from '../components/Jumbotron'
 import Row from '../components/Row'

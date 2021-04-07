@@ -8,6 +8,7 @@ import weatherDash from '../assets/weatherDashboardScreenshot.png'
 import burger from '../assets/Eat-Da-Burger.png'
 import employeeDirect from '../assets/employeeDirectory.png'
 import fitnessTracker from '../assets/fitnessTracker.png'
+import escapeRoom from '../assets/escapeRoom.png'
 import "./pages.css"
 
 function Portfolio() {
@@ -17,6 +18,15 @@ function Portfolio() {
                 <h1 className="display-4">Portfolio</h1>
                 <hr className="my-4"></hr>
                 <Row>
+                    <Card>
+                        <img src={escapeRoom} className="card-img-top" alt="Escape Room Screenshot"></img>
+                        <div className="card-body">
+                            <h2 className="card-title">Escape Room</h2>
+                            <p className="card-text">A virtual escape room game where users must solve riddles, complete puzzles, and find clues to "escape" and win. Created with JavaScript, React, React-drag-drop-container, Node, Express, MongoDB, Mongoose, Passport, JSON Web Token, Bcrypt, CSS, Bootstrap, Font Awesome, and deployed on Heroku with MongoDB Atlas.</p>
+                            <a href="https://react-escape-room.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-dark">Deployed Site</a>
+                            <a href="https://github.com/rekroetch/escape-room" target="_blank" rel="noreferrer" className="btn btn-secondary">GitHub Repo</a>
+                        </div>
+                    </Card>
                     <Card>
                         <img src={plates} className="card-img-top" alt="Plates Screenshot"></img>
                         <div className="card-body">
