@@ -6,14 +6,14 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navTop">
-      <Link className="navbar-brand" to="/" style={{fontSize: "25px"}}>
+      <Link className="navbar-brand" to="/react-portfolio/" style={{fontSize: "25px"}}>
         Rachel Kroetch
       </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/"
+              to="/react-portfolio/"
               className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
               style={{color: "whitesmoke"}}
             >
@@ -22,14 +22,14 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/portfolio"
+              to="/react-portfolio/portfolio"
               className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
               style={{color: "whitesmoke"}}
             >
               Portfolio
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               to="/contact"
               className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
@@ -37,7 +37,7 @@ function Navbar() {
             >
               Contact
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
