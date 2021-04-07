@@ -1,6 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Contact from "./pages/Contact";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
@@ -11,11 +11,11 @@ function App() {
     <Router>
       <div>
         <Navbar />
-        <div>
-          <Route exact path="/" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/portfolio" component={Portfolio} />
-        </div>
+        <Switch>
+          <Route exact path="/react-portfolio/"  component={About} />
+          {/* <Route exact path="/contact" component={Contact} /> */}
+          <Route exact path="/react-portfolio/portfolio" component={Portfolio} />
+        </Switch>
         <Footer />
       </div>
     </Router>
