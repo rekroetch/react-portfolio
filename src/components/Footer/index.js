@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Resume from '../../assets/Rachel_Kroetch-Resume_08.22.pdf'
+import Resume from '../../assets/Rachel_Kroetch-Resume_10.22.pdf'
 
 function Footer() {
   return (
